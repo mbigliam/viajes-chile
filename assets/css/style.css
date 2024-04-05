@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* cambio el fondo del body*/
+.bod {
+  background: black;
+
+}
+nav{
+  position: fixed; /* Asegura que el z-index funcione correctamente */
+  z-index: 3; /* Asegura que el header esté por encima del carrusel */
+  width: 100%;
+  padding: 50px;
+  height: 30px;
+ 
+
+}
+#navhijo{
+  background: transparent!important;
+}
+
+
+
+header:hover{
+  opacity: 1 !important;
+  transition: opacity 3.1s ease; /* Transición suave durante 0.5 segundos */
+
+}
+
+/*menu transparente*/
+
+
+.carouselExampleSlidesOnly{
+  position: relative; /* Asegura que el z-index funcione correctamente */
+  z-index: 2; /* Asegura que el header esté por encima del carrusel */
+}
+
+
+
+
+
+
+
+.carousel-item img {
+  width: 100%; /* Hace que todas las imágenes ocupen el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  /* object-fit: cover; Ajustar la imagen dentro de su contenedor manteniendo la proporción y cubriendo todo el espacio */
+}
+
+/* Estilo para los botones de navegación "Previous" y "Next" del carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  /* Hace que el fondo de los botones sea transparente */
+  border: none;
+  /* Elimina el borde de los botones */
+  transition: background-color 0.3s;
+  /* Agrega una transición suave al cambio de color de fondo */
+}
+
+
+
+
+
+
+
+
+
+
+/*************** primera section inicio col **********/
+
+/* alineo los iconos*/
+.fa-solid {
+  margin-left: 0%;
+  margin-top: 6%;
+  font-size: 40px;
+
+}
+
+
+/*************** primera section fin col **********/
+
+
+/*************** Card **********/
+/* dandole estilo a las card para hacerlas responsivas*/
+#cardx {
+  background: black;
+}
+.card {
+  width: 20rem; /* Ancho predeterminado para las tarjetas */
+  padding: 20px;
+  opacity:0.5;
+}
+/* cambio la opacidad y tamaño*/
+.card:hover{
+
+  opacity:1;
+  transition: opacity 2.1s ease; /* Transición suave durante 0.5 segundos */
+
+
+  -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.02);
+}
+.card img {
+  height: 212px; /* Altura predeterminada para las imágenes */
+  object-fit: cover; /* La imagen se ajustará dentro del contenedor sin distorsionarse */
+}
+
+/*************** Fin Card**********/
+
+
+
+
+/*************** formulario**********/
+
+/* propiedades de contenedor formulario*/
+form {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+/* propiedades de etiquetas*/
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+/* manejo los tipo imput text y sus propiedades*/
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* manejo el alto del textarea*/
+textarea {
+  height: 150px;
+}
+button {
+  width: 15%;
+  /* Ajusta el ancho del botón al 15% del contenedor */
+  height: 3rem;
+  /* Define la altura del botón */
+
+  border: none;
+  border-radius: 25px;
+  /* Ajusta el radio del borde */
+  cursor: pointer;
+  font-size: 14px;
+
+  /*margin Ajusta el tamaño de la fuente */
+}
+
+/*************** fin formulario**********/
+
+
+
+
+
+/***********footer ***************/
+
+/* defino el tamaño de mi footer*/
+footer {
+  width: 100%;
+  height: 100px;
+ 
+}
+
+.iconosfooter {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  margin-left: 30%;
+}
+
+.iconosfooter li a i {
+  margin-top: 50px;
+  font-size: 40px;
+  margin-left: 10px;
+
+}
+
+/* defino  el lugar de la letra viajes chile*/
+#fuentefoot {
+  display: flex;
+  margin-top: 40px;
+  font-size: 24px;
+  color: #ffffff;
+  justify-content: center;
+}
+
+/*********** fin -footer ***************/
+
+
+
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .card {
+      width: 100%; /* Las tarjetas ocuparán todo el ancho del contenedor en dispositivos móviles */
+      margin-bottom: 20px; /* Agrega un margen inferior para separar las tarjetas */
+  }
+
+  #vista0 {
+    display: none; /* Oculta la sección en dispositivos móviles con un ancho máximo de pantalla */
+}
+}

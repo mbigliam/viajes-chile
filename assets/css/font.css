@@ -1,0 +1,123 @@
+.ralewaybold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .ralewaynormal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* estas son las columnas para el conenido quienes somos*/
+  /***********************************************************/
+ /*Cmodifico con esto, colores,texto, icono*/
+
+ p{
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 2px;
+  text-align: justify;
+}
+.card-body h5{
+  color:#ffffff;
+}
+
+.card-group{
+  background-color: #1d2020;
+  
+}
+.card-body{background-color:  rgb(63, 183, 253);}
+
+
+/* anclaje por id  alineacion al centro DE CADA APARTADO*/
+/***********************************************************/
+#quienessomos {
+   
+    
+  text-align: center;
+  margin-top: 80px;
+  color: #ffffff;
+ 
+}
+#destacados{
+  text-align: center;
+  margin-top: 80px;
+  color: #ffffff;
+}
+
+#contacto{
+  text-align: center;
+  margin-top: 80px;
+  color: #ffffff;
+}
+/* creo la linea */
+#linea{
+  width: 80%;
+  height: 3px;
+  background-color: rgba(53, 52, 52, 0.592);
+  margin-bottom: 60px;
+  margin-left: 10%;
+}
+
+
+
+/***********************************************************/
+/* modifico el tamaño y color de  el contenedo  de los iconos*/
+.carta{
+  height: 50px;
+  flex-direction: row;
+   background-color: rgb(63, 183, 253);
+
+
+}
+
+/* este es el color del navbar, cambio algunas propiedades aqui*/
+/***********************************************************/
+
+
+
+/* Estilos para la clase específica del navbar hijo */
+
+
+.icono img{
+  width: 30px;
+}
+.icono span{ 
+  font-size: 24px;
+}
+
+.navbar .nav-link{
+  color: #ffff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.navbar .nav-link:hover{
+  color: #c9bdbd;
+
+}
+/* configuro el color de fondo de mi nav, si es trasparente o no*/
+.navbar-dark {
+  background-color: transparent !important;
+  color: black;
+}
+
+.navbar-light {
+  background-color: transparent !important;
+  color: black;
+}
+
+button{
+  background-color:  rgb(63, 183, 253);
+  color: white;
+}
+
+/* color para el footer*/
+footer{
+  background-color: rgb(63, 183, 253);
+}
